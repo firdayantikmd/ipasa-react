@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'SF Pro Display Semi Bold';
+  src: url('/assets/fonts/SF-Pro-Text-Semibold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'SF Pro Display Ultra Light';
+  src: url('/assets/fonts/SF-Pro-Text-Ultralight.otf') format('opentype');
+}
+
+.about {
+  background-color: #000000;
+  color: #FFFFFF;
+  position: relative;
+  padding: 4rem 2rem;
+}
+
+.about-container {
+  max-width: 90rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 2rem;
+}
+
+.about-container h2 {
+  font-family: 'SF Pro Display Semi Bold';
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.about-container h2 span {
+  color: #FF6D6D;
+}
+
+.about-container p {
+  font-family: 'SF Pro Display Ultra Light';
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.content-card {
+  background-color: #FFFFFF;
+  color: #000000;
+  border-radius: 12px;
+  padding: 2rem;
+  transition: transform 0.3s;
+}
+
+.content-card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.icon {
+  background-color: #FF6D6D;
+  padding: 0.5rem;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center; /* Center the icon */
+  margin-bottom: 1rem;
+}
+
+.content-card h3 {
+  font-family: 'SF Pro Display Semi Bold';
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.content-card h4 {
+  font-family: 'SF Pro Display Ultra Light';
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #FF6D6D;
+}
+
+.content-card p {
+  font-family: 'SF Pro Display Ultra Light';
+  font-size: 1rem;
+  line-height: 1.5;
+}
